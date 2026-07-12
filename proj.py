@@ -68,7 +68,7 @@ print("Orders loaded!\n")
 print("Verifying...")
 
 cursor.execute("SELECT COUNT(*) FROM customers")
-customers_count = cursor.fetchone()[0]
+customers_count = cursor.fetchone()[0] 
 
 cursor.execute("SELECT COUNT(*) FROM orders")
 orders_count = cursor.fetchone()[0]
@@ -78,4 +78,20 @@ print(f"Customers: {customers_count}")
 print(f"Orders: {orders_count}")
 print(f"Database: data/ecommerce.db")
 
+cursor.execute("SELECT * FROM customers LIMIT 5")
+results = cursor.fetchall()
+print("First 5 Customers:")
+print("-" * 80)
+
+for row in results:
+    print(row)
+    
+cursor.execute("SELECT * FROM orders LIMIT 5")
+results = cursor.fetchall()
+print("Print 5 orders : ")
+print("-" * 80)
+for row in results:
+    print(row)    
+
 conn.close()
+
