@@ -3,8 +3,8 @@ import csv
 
 print("Database is being created from CSV...\n")
 
-conn = sqlite3.connect('data/ecommerce.db')
-cursor = conn.cursor()
+conn = sqlite3.connect('data/ecommerce.db') 
+cursor = conn.cursor()#cursor is use for running commands
 
 # Create Tables
 print("1️Tables are being created...")
