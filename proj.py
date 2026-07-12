@@ -1,4 +1,4 @@
-import sqlite3
+import sqlite3 #database application use sql language
 import csv
 
 print("Database is being created from CSV...\n")
@@ -7,7 +7,7 @@ conn = sqlite3.connect('data/ecommerce.db')
 cursor = conn.cursor()
 
 # Create Tables
-print("1️⃣ Tables are being created...")
+print("1️Tables are being created...")
 
 cursor.execute('''
 DROP TABLE IF EXISTS customers
@@ -35,10 +35,10 @@ CREATE TABLE orders (
 )
 ''')
 
-print("✅ Tables have been created!\n")
+print("Tables have been created!\n")
 
 # Load Customers CSV
-print("2️⃣ Customers are being loaded...")
+print("Customers are being loaded...")
 
 with open('data/customers.csv', 'r') as f:
     reader = csv.DictReader(f)
@@ -48,10 +48,10 @@ with open('data/customers.csv', 'r') as f:
         ''', (row['customer_id'], row['customer_name'], 
               row['email'], row['city']))
 
-print("✅ Customers loaded!\n")
+print("Customers loaded!\n")
 
 # Load Orders CSV
-print("3️⃣ Orders are being loaded...")
+print("Orders are being loaded...")
 
 with open('data/orders.csv', 'r') as f:
     reader = csv.DictReader(f)
@@ -62,10 +62,10 @@ with open('data/orders.csv', 'r') as f:
               row['order_date'], row['order_amount']))
 
 conn.commit()
-print("✅ Orders loaded!\n")
+print("Orders loaded!\n")
 
 # Verify Data
-print("4️⃣ Verifying...")
+print("Verifying...")
 
 cursor.execute("SELECT COUNT(*) FROM customers")
 customers_count = cursor.fetchone()[0]
@@ -73,9 +73,9 @@ customers_count = cursor.fetchone()[0]
 cursor.execute("SELECT COUNT(*) FROM orders")
 orders_count = cursor.fetchone()[0]
 
-print(f"\n✅ DATABASE READY!")
-print(f"   ✓ Customers: {customers_count}")
-print(f"   ✓ Orders: {orders_count}")
-print(f"   ✓ Database: data/ecommerce.db")
+print(f"\n DATABASE READY!")
+print(f"Customers: {customers_count}")
+print(f"Orders: {orders_count}")
+print(f"Database: data/ecommerce.db")
 
 conn.close()
