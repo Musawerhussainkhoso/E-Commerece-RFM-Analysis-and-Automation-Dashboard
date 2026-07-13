@@ -1,0 +1,101 @@
+Customer ID,Name,City,Total Spent,Segment
+45,Qasim Raza,Multan,293285.0,VIP
+78,Ximena Ali,Islamabad,281227.0,VIP
+3,Bilal Hassan,Islamabad,262965.0,VIP
+85,Edison Ali,Multan,240685.0,VIP
+1,Ahmed Khan,Karachi,238230.0,VIP
+39, Amir Saeed,Rawalpindi,223573.0,VIP
+19,Samir Hassan,Rawalpindi,218774.0,VIP
+48,Tara Ahmed,Islamabad,210295.0,VIP
+21,Tariq Malik,Karachi,210119.0,VIP
+87,Gregory Raza,Lahore,208969.0,VIP
+9,Karim Ali,Rawalpindi,208947.0,VIP
+80,Zoya Saeed,Multan,207296.0,VIP
+2,Zainab Ali,Lahore,200641.0,VIP
+28,Rania Ali,Islamabad,197439.0,VIP
+35,Naveed Ali,Multan,195260.0,VIP
+77,Wasim Khan,Lahore,192111.0,VIP
+12,Noor Fatima,Lahore,189573.0,VIP
+25,Jamil Ahmed,Multan,186089.0,VIP
+76,Vivienne Ahmed,Karachi,186080.0,VIP
+22,Yasmin Khan,Lahore,185276.0,VIP
+42,Mira Ali,Lahore,176734.0,VIP
+91,Kai Khan,Karachi,175992.0,VIP
+89,Ivan Hassan,Rawalpindi,175128.0,VIP
+58,Diana Malik,Islamabad,173977.0,VIP
+62,Heba Ahmed,Lahore,172729.0,VIP
+11,Muhammad Hassan,Karachi,171982.0,VIP
+6,Ayesha Mirza,Karachi,169482.0,VIP
+52,Xenia Khan,Lahore,169041.0,VIP
+30,Nadia Ahmed,Multan,168443.0,VIP
+60,Flora Hassan,Multan,166113.0,VIP
+75,Ulrich Hassan,Multan,165989.0,VIP
+18,Layla Ahmed,Islamabad,164224.0,VIP
+29,Khalid Malik,Rawalpindi,163456.0,VIP
+66,Lina Khan,Karachi,160572.0,VIP
+74,Tamara Khan,Rawalpindi,158185.0,VIP
+81,Alix Khan,Karachi,157724.0,VIP
+20,Dina Ali,Multan,156171.0,VIP
+61,Gabir Khan,Karachi,155229.0,VIP
+14,Mona Khan,Rawalpindi,150735.0,VIP
+71,Quinn Ali,Karachi,150092.0,VIP
+15,Ibrahim Ahmed,Multan,149319.0,Loyal
+95,Oscar Hassan,Multan,148661.0,Loyal
+90,Jade Ahmed,Multan,143975.0,Loyal
+34,Hana Khan,Rawalpindi,143159.0,Loyal
+69,Omar Ahmed,Rawalpindi,139013.0,Loyal
+16,Hiba Malik,Karachi,137948.0,Loyal
+46,Rima Khan,Karachi,135788.0,Loyal
+94,Nora Saeed,Rawalpindi,134746.0,Loyal
+98,Rosalind Ali,Islamabad,129209.0,Loyal
+47,Syed Hassan,Lahore,128839.0,Loyal
+56,Bella Khan,Karachi,128503.0,Loyal
+99,Sidney Malik,Rawalpindi,127354.0,Loyal
+17,Rashid Khan,Lahore,126989.0,Loyal
+86,Fiona Malik,Karachi,126779.0,Loyal
+59,Ethan Raza,Rawalpindi,125235.0,Loyal
+73,Samira Raza,Islamabad,124495.0,Loyal
+82,Blanca Hassan,Lahore,121017.0,Loyal
+53,Yasin Saeed,Islamabad,120987.0,Loyal
+4,Fatima Malik,Rawalpindi,116980.0,Loyal
+41,Rahim Khan,Karachi,110967.0,Loyal
+84,Delia Khan,Rawalpindi,107390.0,Loyal
+57,Cyrus Ali,Lahore,106528.0,Loyal
+37,Imran Ahmed,Lahore,105001.0,Loyal
+93,Miguel Malik,Islamabad,99965.0,Regular
+100,Talia Raza,Multan,99556.0,Regular
+8,Hana Saeed,Islamabad,94277.0,Regular
+43,Babar Ahmed,Islamabad,92969.0,Regular
+26,Amira Hassan,Karachi,92797.0,Regular
+38,Sana Khan,Islamabad,91702.0,Regular
+97,Quincy Khan,Lahore,90872.0,Regular
+54,Zara Hassan,Rawalpindi,89261.0,Regular
+79,Yousaf Malik,Rawalpindi,88522.0,Regular
+7,Usman Ahmed,Lahore,87600.0,Regular
+63,Isaac Khan,Islamabad,85850.0,Regular
+13,Ali Raza,Islamabad,79640.0,Regular
+96,Petra Ahmed,Karachi,78699.0,Regular
+72,Rabia Malik,Lahore,76746.0,Regular
+5,Hassan Raza,Multan,75334.0,Regular
+50,Vanessa Ali,Multan,74723.0,Regular
+55,Aziz Ahmed,Multan,74409.0,Regular
+65,Karim Malik,Multan,73107.0,Regular
+44,Nina Malik,Rawalpindi,72388.0,Regular
+40,Huda Hassan,Multan,61148.0,Regular
+64,Jasmine Ali,Rawalpindi,60545.0,Regular
+32,Zahra Raza,Lahore,56571.0,Regular
+49,Usman Khan,Rawalpindi,56344.0,Regular
+92,Lucia Ali,Lahore,50355.0,Regular
+70,Piper Khan,Multan,46501.0,At Risk
+10,Sara Khan,Multan,43232.0,At Risk
+83,Carlos Ahmed,Islamabad,37974.0,At Risk
+33,Waqar Hassan,Islamabad,28453.0,At Risk
+27,Faisal Khan,Lahore,27261.0,At Risk
+31,Samir Khan,Karachi,25385.0,At Risk
+23,Adnan Raza,Islamabad,24232.0,At Risk
+36,Aaliya Malik,Karachi,22286.0,At Risk
+88,Hannah Khan,Islamabad,20047.0,At Risk
+67,Marcus Saeed,Lahore,4386.0,At Risk
+24,Leila Saeed,Rawalpindi,,At Risk
+51,Waleed Malik,Karachi,,At Risk
+68,Nadia Hassan,Islamabad,,At Risk
