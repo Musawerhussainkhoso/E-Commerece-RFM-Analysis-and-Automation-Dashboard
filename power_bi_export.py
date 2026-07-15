@@ -2,7 +2,7 @@ import sqlite3
 import csv
 
 print("=" * 80)
-print("DAY 4: EXPORT DATA FOR POWER BI")
+print(" EXPORT DATA FOR POWER BI")
 print("=" * 80)
 
 conn = sqlite3.connect('data/ecommerce.db')
